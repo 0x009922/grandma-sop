@@ -1,11 +1,11 @@
 {
-    "name": "grandma-sop",
+    "name": "sop",
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "dev": "vitepress dev",
-        "build": "vitepress build",
-        "serve": "vitepress serve",
+        "dev": "vitepress dev root",
+        "build": "vitepress build root",
+        "serve": "vitepress serve root",
         "publish:gh-pages": "gulp -r sucrase/register -f gulpfile.ts publish"
     },
     "devDependencies": {
