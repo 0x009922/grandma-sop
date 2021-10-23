@@ -1,5 +1,6 @@
 import { defineConfig } from 'vitepress'
 import Windi from 'vite-plugin-windicss'
+import Icons from 'unplugin-icons/vite'
 import path from 'path'
 
 interface SideBarItem {
@@ -19,7 +20,12 @@ function getSidebarLinks(): SideBarItem[] {
             children: [
                 {
                     text: 'YouTube',
-                    link: '/android/youtube/',
+                    children: [
+                        {
+                            text: 'Поиск',
+                            link: '/android/youtube/search',
+                        },
+                    ],
                 },
             ],
         },
@@ -27,10 +33,10 @@ function getSidebarLinks(): SideBarItem[] {
 }
 
 export default defineConfig({
-    base: '/grandma-sop',
+    base: '/sop/',
     title: 'Стандартные операционные процедуры',
     vite: {
-        plugins: [Windi({ config: path.resolve(__dirname, '../windi.config.ts') })],
+        plugins: [Windi({ config: path.resolve(__dirname, '../../windi.config.ts') }), Icons()],
     },
     themeConfig: {
         sidebar: {
