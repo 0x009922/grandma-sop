@@ -46,6 +46,7 @@ function getSidebarLinks(): SideBarItem[] {
 export default defineConfig({
     base: '/sop/',
     title: 'СОП',
+    description: 'Стандартные операционные процедуры по пользованию телефоном и не только',
     vite: {
         plugins: [Windi({ config: path.resolve(__dirname, '../../windi.config.ts') }), Icons()],
         build: {
