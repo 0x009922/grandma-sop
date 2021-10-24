@@ -16,27 +16,41 @@ function getSidebarLinks(): SideBarItem[] {
             link: '/',
         },
         {
-            text: 'Android',
+            text: 'Android - YouTube',
             children: [
                 {
-                    text: 'YouTube',
-                    children: [
-                        {
-                            text: 'Поиск',
-                            link: '/android/youtube/search',
-                        },
-                    ],
+                    text: 'Поиск видео',
+                    link: '/android/youtube/search',
+                },
+                {
+                    text: 'Поиск канала',
+                    link: '/android/youtube/search-channel',
+                },
+                {
+                    text: 'Управление видео',
+                    link: '/android/youtube/video-controls',
+                },
+                {
+                    text: 'Закрытие видео',
+                    link: '/android/youtube/close-video',
                 },
             ],
+        },
+        {
+            text: 'TODO',
+            link: '/todo',
         },
     ]
 }
 
 export default defineConfig({
     base: '/sop/',
-    title: 'Стандартные операционные процедуры',
+    title: 'СОП',
     vite: {
         plugins: [Windi({ config: path.resolve(__dirname, '../../windi.config.ts') }), Icons()],
+        build: {
+            minify: false,
+        },
     },
     themeConfig: {
         sidebar: {
