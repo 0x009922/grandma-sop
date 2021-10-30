@@ -36,10 +36,10 @@ function getSidebarLinks(): SideBarItem[] {
                 },
             ],
         },
-        {
-            text: 'TODO',
-            link: '/todo',
-        },
+        // {
+        //     text: 'TODO',
+        //     link: '/todo',
+        // },
     ]
 }
 
