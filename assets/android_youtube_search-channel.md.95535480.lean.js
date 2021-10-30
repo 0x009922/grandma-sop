@@ -1,0 +1,12 @@
+import { _ as _export_sfc, c as createElementBlock, o as openBlock, f as createStaticVNode } from "./app.16d6ae43.js";
+const __pageData = '{"title":"\u041F\u043E\u0438\u0441\u043A \u043E\u043F\u0440\u0435\u0434\u0435\u043B\u0451\u043D\u043D\u043E\u0433\u043E \u043A\u0430\u043D\u0430\u043B\u0430","description":"","frontmatter":{},"headers":[{"level":2,"title":"\u041A\u0430\u043A \u043F\u043E\u043F\u0430\u0441\u0442\u044C \u043D\u0430 \u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443 \u043A\u0430\u043D\u0430\u043B\u0430","slug":"\u043A\u0430\u043A-\u043F\u043E\u043F\u0430\u0441\u0442\u044C-\u043D\u0430-\u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0443-\u043A\u0430\u043D\u0430n\u0430"},{"level":3,"title":"\u0427\u0435\u0440\u0435\u0437 \u043E\u0431\u044B\u0447\u043D\u044B\u0439 \u043F\u043E\u0438\u0441\u043A","slug":"\u0447\u0435\u0440\u0435\u0437-\u043E\u0431\u044B\u0447\u043D\u044B\u0439-\u043F\u043E\u0438\u0441\u043A"},{"level":3,"title":"\u0427\u0435\u0440\u0435\u0437 \u0432\u0438\u0434\u0435\u043E \u0441\u0430\u043C\u043E\u0433\u043E \u043A\u0430\u043D\u0430\u043B\u0430, \u043A\u043E\u0442\u043E\u0440\u043E\u0435 \u0443\u0436\u0435 \u043E\u0442\u043A\u0440\u044B\u0442\u043E","slug":"\u0447\u0435\u0440\u0435\u0437-\u0432\u0438\u0434\u0435\u043E-\u0441\u0430\u043C\u043E\u0433\u043E-\u043A\u0430\u043D\u0430n\u0430-\u043A\u043E\u0442\u043E\u0440\u043E\u0435-\u0443\u0436\u0435-\u043E\u0442\u043A\u0440\u044B\u0442\u043E"},{"level":2,"title":"\u0421\u0442\u0440\u0430\u043D\u0438\u0446\u0430 \u043A\u0430\u043D\u0430\u043B\u0430","slug":"\u0441\u0442\u0440\u0430\u043D\u0438\u0446\u0430-\u043A\u0430\u043D\u0430n\u0430"}],"relativePath":"android/youtube/search-channel.md","lastUpdated":1635573053886}';
+const _sfc_main = {};
+const _hoisted_1 = /* @__PURE__ */ createStaticVNode('', 12);
+const _hoisted_13 = [
+  _hoisted_1
+];
+function _sfc_render(_ctx, _cache, $props, $setup, $data, $options) {
+  return openBlock(), createElementBlock("div", null, _hoisted_13);
+}
+var searchChannel = /* @__PURE__ */ _export_sfc(_sfc_main, [["render", _sfc_render]]);
+export { __pageData, searchChannel as default };
